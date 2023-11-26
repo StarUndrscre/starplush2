@@ -1,0 +1,38 @@
+@font-face {
+    font-family: ProggyVector;
+    src: url(./ProggyVector-Regular.woff2) format(woff2);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: ProggyVector;
+}
+
+h1 {
+    color: #ffd482;
+}
+
+body {
+    margin: 0;
+    padding: none;
+    background-color: #212E40;
+    color: #ffd482;
+}
+
+footer {
+    font-size: 12px;
+    padding-left: 10px;
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Links */
+
+/* the canvas *must not* have any border or padding, or mouse coords will be wrong */
+#canvas {
+    padding-right: 0;
+    display: block;
+    border: 0px none;
+    visibility: hidden;
+}
